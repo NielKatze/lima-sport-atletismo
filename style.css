@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+nav {
+  background: #FF8000; /* Naranja */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  position: relative;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #FFD700; /* Amarillo */
+  text-decoration: none;
+  padding: 8px;
+  display: block;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background: #FFA733; /* Naranja más claro */
+  padding: 10px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
